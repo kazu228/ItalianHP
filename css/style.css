@@ -11,3 +11,75 @@ body {
     max-width: 1000px;
     margin: 0 auto;
 }
+
+.clearlist {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#site_logo {
+    float: left;
+    width: 65%;
+}
+
+#site_reserve {
+    float: right;
+    width: 35%;
+    text-align: right;
+    margin-top: 10px;
+}
+
+.ite_tel {
+    font-size: 1.5em;
+    color: rebeccapurple;
+}
+
+nav {
+    background-color: aquamarine;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+nav li {
+    float: left;
+
+    width: 25%;
+    text-align: center;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    color: beige;
+}
+
+nav a:hover {
+    opacity: 0.7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
