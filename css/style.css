@@ -112,12 +112,42 @@ nav a:hover {
     text-align: left;
     font-size: 0.8em;
     margin-left: 3%;
-
-
 }
 
+#access {
+    text-align: center;
+}
 
+#access iframe {
+    width: 70%;
+}
 
+#access_logo {
+    margin-bottom: -40px;
+}
+
+#access_map {
+    float: left;
+    width: 50%;
+}
+
+#access_txt {
+    float: right;
+    width: 50%;
+    text-align: left;
+    margin-top: 60px;
+}
+
+#accress_reserve {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: brown;
+    color: blanchedalmond;
+    text-align: center;
+}
 
 
 
